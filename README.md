@@ -31,7 +31,17 @@ Il database può essere:
  	</Directory>
  </VirtualHost>
  ```
-A questo punto aprire un terminale e posizionarsi nella cartella del progetto `calendario_prex` e lanciare il comando:
+ 
+ A questo punto aprire un terminale ed installare le dipendenze necessarie al progetto, lanciando questi comandi dalla cartella calendario_prex:
+ 
+ 
+ `composer install`
+ 
+ e poi:
+ 
+  `npm install`
+ 
+ed infine:
 
 `php artisan migrate`
 
